@@ -5,3 +5,52 @@
    section .container {width: auto;}
 }
 
+
+
+
+@media screen and (max-width:480px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .lessons .col {
+        
+        width: 80%;
+        margin-bottom: 40px;
+    }
+
+    .steps .col {
+        margin-top: 40px;
+        width: auto;
+    }
+
+    h2 {
+        margin-bottom: 0;
+    }
+
+    .why-us h2 { padding: 2rem;
+        
+    }
+
+    .steps {
+        padding-top: 30px;
+        margin: 0rem 0
+    }
+
+    .why-us .col-left {
+    width: 85%;
+    margin-bottom: 50px;}
+
+    .why-us .col-right {
+        width: 100%;
+        margin-bottom: 50px;
+        }
+
+    .why-us .container {
+        background-color: rgb(34, 35, 35);
+    }
+    
+}
